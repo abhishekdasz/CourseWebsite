@@ -171,6 +171,11 @@
         display: flex;
         gap: 5rem;
         justify-content: center;
+        #social 
+        {
+            display: flex;
+            gap: 5rem;
+        }
         .socialMedia
         {
             display: flex;
@@ -256,6 +261,22 @@
 
 @media only screen and (max-width: 600px) 
 {
+    .hero-sec .course-details .courseAndabout .aboutCourse
+    {
+        padding: 0 1rem;
+    }
+    .hero-sec .course-details .courseAndabout .course-expectations
+    {
+        padding: 0 1rem;
+    }
+    .hero-sec .course-details .courseAndabout .key-topics
+    {
+        padding: 0 1rem;
+    }
+    .about-instructor
+    {
+        padding: 0 1rem;
+    }
     .hero-sec .nav .navbar
     {
         flex-direction: column;
@@ -297,7 +318,15 @@
     }
     .about-instructor .instructor-socialMedia
     {
-        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .about-instructor .instructor-socialMedia #social
+    {
+        width: 100%;
+        justify-content: space-around;
+        gap: 1rem;
     }
 
     .course
