@@ -41,7 +41,7 @@
     .course-details 
     {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 
         .courseAndabout 
         {
@@ -119,9 +119,17 @@
 
 .about-instructor
 {
+    padding: 0 200px;
     .instructor-details
     {
         display: flex;
         gap: 2rem;
+        align-items: center;
+
+        img 
+        {
+            height: 280px;
+            border-radius: 50%;
+        }
     }
 }

@@ -104,10 +104,11 @@ const Page = () => {
         <h2> About the Instructor </h2>
         <div className="instructor-details">
           <img src="/instructorProficpic.jpg" alt="instructor" />
-          div.
+          <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+          <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
         </div>
         <div className="instructor-socialMedia">
-          <img src="/facebook.png" alt="facebook" />
+          {/* <img src="/facebook.png" alt="facebook" /> */}
         </div>
       </div>
     </div>
