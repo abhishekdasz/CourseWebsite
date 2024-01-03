@@ -50,6 +50,7 @@
             max-width: 575px;
             font-size: 1.2rem;
 
+            // about Course
             .aboutCourse 
             {
                 display: flex;
@@ -57,10 +58,12 @@
                 gap: 1.5rem;
             }
 
+            // course expectations
             .course-expectations
             {
                 display: flex;
             }
+
             .key-topics
             {
                 display: flex;
