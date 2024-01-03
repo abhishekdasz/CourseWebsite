@@ -7,6 +7,7 @@ const Page = () => {
   const {  } = constants;
   return (
     <div>
+      {/* page-1 hero-sec */}
       <div className="hero-sec">
         {/* course-details */}
         <div
@@ -95,6 +96,18 @@ const Page = () => {
 
             <div className="btn"> Register today </div>
           </div>
+        </div>
+      </div>
+
+      {/* page-2 about instructor */}
+      <div className="about-instructor">
+        <h2> About the Instructor </h2>
+        <div className="instructor-details">
+          <img src="/instructorProficpic.jpg" alt="instructor" />
+          div.
+        </div>
+        <div className="instructor-socialMedia">
+          <img src="/facebook.png" alt="facebook" />
         </div>
       </div>
     </div>

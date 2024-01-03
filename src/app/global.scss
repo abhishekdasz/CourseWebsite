@@ -1,4 +1,5 @@
-.hero-sec {
+.hero-sec 
+{
     padding: 0 200px;
 
     // course-headings
@@ -113,5 +114,14 @@
                 align-items: center;
             }
         }
+    }
+}
+
+.about-instructor
+{
+    .instructor-details
+    {
+        display: flex;
+        gap: 2rem;
     }
 }
