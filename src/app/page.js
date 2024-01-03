@@ -122,7 +122,7 @@ const Page = () => {
           <div className="testinomial">
             <h2> "{testimonial.text}" </h2>
             <div className="reviewer">
-              <img src="/instructorProficpic.jpg" alt="reviewer" />
+              <img src="/reviewer.jpg" alt="reviewer" />
               <div className="reviewerDetails">
                 <p> <b> {testimonial.reviewer_name} </b> </p>
                 <p> {testimonial.reviewer_designation} </p>
@@ -130,7 +130,13 @@ const Page = () => {
             </div>
           </div>
         )}
+
+        <div className="arrows">
+          <img src="/left-arrow.png" alt="leftArrow" />
+          <img src="/right-arrow.png" alt="rightArrow" />
+        </div>
       </div>
+
     </div>
   );
 };

@@ -176,6 +176,8 @@
     justify-content: center;
     align-items: center;
 
+    position: relative;
+
     .testinomial
     {
         max-width: 593px;
@@ -184,6 +186,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        gap: 2rem;
 
         .reviewer
         {
@@ -205,5 +208,16 @@
                 align-items: flex-start;
             }
         }
+
+
+    }
+
+    .arrows 
+    {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        padding: 5rem;
     }
 }
