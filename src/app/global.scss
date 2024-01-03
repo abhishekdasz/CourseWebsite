@@ -254,11 +254,71 @@
     }
 }
 
+@media only screen and (max-width: 600px) 
+{
+    .hero-sec .nav .navbar
+    {
+        flex-direction: column;
+        gap: 0;
+    }
+    .course
+    {
+        padding: 0;
+    }
+    .hero-sec .course-det
+    {
+        width: auto;
+    }
+    .hero-sec .course-headings
+    {
+        padding: 25px 15px;
+    }
+    .hero-sec .nav .navbar p
+    {
+        padding: 1.2rem;
+    }
+    .hero-sec .course-details .registrationCard
+    {
+        margin-top: 0;
+    }
+    .registrationCard
+    {
+        margin-right: 0;
+    }
+    .course-details
+    {
+        flex-direction: column;
+    }
 
+
+    .about-instructor .instructor-details
+    {
+        flex-direction: column;
+    }
+    .about-instructor .instructor-socialMedia
+    {
+        gap: 10px;
+    }
+
+    .course
+    {
+        gap: 1rem;
+    }
+
+    .footer-testinomials .arrows
+    {
+        padding: 1rem;
+    }
+}
 @media only screen and (min-width: 601px) and (max-width: 1024px) 
 {
     .course
     {
         padding: 0;
     }
+    .registrationCard
+    {
+        margin-right: 0;
+    }
 }
+
