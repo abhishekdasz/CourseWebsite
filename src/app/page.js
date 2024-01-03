@@ -6,7 +6,7 @@ const Page = () => {
   const { course } = constants || {};
   const {  } = constants;
   return (
-    <div>
+    <div className="course">
       {/* page-1 hero-sec */}
       <div className="hero-sec">
         {/* course-details */}
@@ -108,9 +108,16 @@ const Page = () => {
           <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
         </div>
         <div className="instructor-socialMedia">
-          {/* <img src="/facebook.png" alt="facebook" /> */}
+          <div className="socialMedia"> <img src="/facebook.png" alt="facebook" /> <p> Facebook </p> </div>
+          <div className="socialMedia"> <img src="/twitterX.png" alt="twitterX" /> <p> Twitter </p> </div>
+          <div className="socialMedia"> <img src="/youtube.png" alt="youtube" /> <p> Youtube </p> </div>
+          <div className="socialMedia"> <img src="/instagram.png" alt="instagram" /> <p> Instagram </p> </div>
         </div>
       </div>
+
+
+      {/* footer testinomials */}
+      
     </div>
   );
 };
