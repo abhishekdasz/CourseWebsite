@@ -4,7 +4,7 @@ import { constants } from "./constants";
 
 const Page = () => {
   const { course } = constants || {};
-  const {  } = constants;
+  const { testimonial } = constants;
   return (
     <div className="course">
       {/* page-1 hero-sec */}
@@ -117,7 +117,15 @@ const Page = () => {
 
 
       {/* footer testinomials */}
-      
+      <div className="footer-testinomials">
+        {testimonial && (
+          <div>
+            <h2>{testimonial.text}</h2>
+            <h2>{testimonial.reviewer_name}</h2>
+            <p>{testimonial.reviewer_designation}</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

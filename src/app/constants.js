@@ -1,5 +1,6 @@
 export const constants = {
-  instructor: {
+  instructor: 
+  {
     name: "NITYANAND CHARAN DAS",
     social_media: {
       facebook: true,
@@ -8,6 +9,8 @@ export const constants = {
       instagram: true,
     },
   },
+
+  // course
   course: 
   {
     title: "Learn key life lessons from the Gita: Mind control and conflict resolution",
@@ -52,13 +55,19 @@ export const constants = {
         "to numerical meanings, so you can uncover your soul's gifts, challenges, lessons, and purpose – and receive spiritual guidance along your path.",
         "for manifestation offer simple ways to use numbers to co-create with the universe."
       ],
-      html_content: "<ol><li></li><li></li><li></li></ol>",
     },
   },
-  about_instructor: {
+
+  // about-instructor
+  about_instructor: 
+  {
     html_content: "<p>Lorem ipsum text about the instructor's background and philosophy.</p>",
   },
-  testimonial: {
+
+
+  // testinomial
+  testimonial: 
+  {
     text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
     reviewer_name: "Name of the reviewer",
     reviewer_designation: "Designation of the reviewer",

@@ -166,7 +166,13 @@
     }
 }
 
-.footer-testinomial
+.footer-testinomials
 {
-    background: gray;
+    padding: 4rem;
+    background: #9c99994d;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
