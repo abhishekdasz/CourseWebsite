@@ -72,6 +72,18 @@
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
+
+                .expectations
+                {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.6rem;
+                    img 
+                    {
+                        height: 15px;
+                        margin-right: 1rem;
+                    }
+                }
             }
 
             .key-topics
@@ -126,6 +138,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
             }
         }
     }
@@ -238,5 +251,14 @@
                 height: 10px;
             }
         }
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) 
+{
+    .course
+    {
+        padding: 0;
     }
 }
