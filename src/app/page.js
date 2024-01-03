@@ -61,7 +61,7 @@ const Page = () => {
               <h2> What to expect from the course </h2>
               <ul className="expectations">
                 {course.what_to_expect.list_items.map((item, index) => (
-                  <p key={index}> ✓ {item} </p>
+                  <p key={index}> <img src="/check.png" alt="check" /> {item} </p>
                 ))}
               </ul>
             </div>
@@ -74,7 +74,7 @@ const Page = () => {
               <ul className="topics">
                 {course.key_topics.heading.map((heading, index) => (
                 <div key={index}>
-                  <p> <b> ✓ {heading} </b> {course.key_topics.details[index]} </p>
+                  <p> <b> <img src="/check.png" alt="check" /> {heading} </b> {course.key_topics.details[index]} </p>
                 </div>
                 ))}
               </ul>
@@ -132,8 +132,9 @@ const Page = () => {
         )}
 
         <div className="arrows">
-          <img src="/left-arrow.png" alt="leftArrow" />
-          <img src="/right-arrow.png" alt="rightArrow" />
+          <div className="arrow"> <img src="/left-arrow.png" alt="leftArrow" /> </div>
+          <div className="arrow"> <img src="/right-arrow.png" alt="rightArrow" /> </div>
+          
         </div>
       </div>
 
