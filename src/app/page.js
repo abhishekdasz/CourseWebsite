@@ -119,10 +119,15 @@ const Page = () => {
       {/* footer testinomials */}
       <div className="footer-testinomials">
         {testimonial && (
-          <div>
-            <h2>{testimonial.text}</h2>
-            <h2>{testimonial.reviewer_name}</h2>
-            <p>{testimonial.reviewer_designation}</p>
+          <div className="testinomial">
+            <h2> "{testimonial.text}" </h2>
+            <div className="reviewer">
+              <img src="/instructorProficpic.jpg" alt="reviewer" />
+              <div className="reviewerDetails">
+                <p> <b> {testimonial.reviewer_name} </b> </p>
+                <p> {testimonial.reviewer_designation} </p>
+              </div>
+            </div>
           </div>
         )}
       </div>
