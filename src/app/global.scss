@@ -1,63 +1,80 @@
-.hero-sec 
-{
+.hero-sec {
     padding: 0 200px;
 
     // course-headings
-    .course-headings 
-    {
+    .course-headings {
         height: 350px;
-        background-size: cover; 
-        background-position: top center; 
-        padding: 25px 65px; 
-        color: #ffffff; 
-    
+        background-size: cover;
+        background-position: top center;
+        padding: 25px 65px;
+        color: #ffffff;
+
         background-color: rgb(0 0 0 / 42%);
         background-blend-mode: darken;
-    
+
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     }
-    .course-det 
-    {
+
+    .course-det {
         width: 500px;
     }
 
-    .nav 
-    {
-        .navbar 
-        {
+    .nav {
+        .navbar {
             display: flex;
             gap: 2rem;
 
-            p 
-            {
+            p {
                 padding: 1rem 3rem;
             }
-            #active 
-            {
+
+            #active {
                 border-bottom: 2px solid blue;
             }
         }
     }
-    
-
-    .aboutCourse
-    {
-        max-width: 575px;
-        font-size: 1.2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
 
 
-    .course-details
+    .course-details 
     {
         display: flex;
         justify-content: space-around;
 
-        .registrationCard
+        .courseAndabout 
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 575px;
+            font-size: 1.2rem;
+
+            .aboutCourse 
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .key-topics
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+
+                .topics 
+                {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+            }
+        }
+
+
+
+        .registrationCard 
         {
             margin-top: -3rem;
             background: #fff;
@@ -66,18 +83,17 @@
             flex-direction: column;
             gap: 1rem;
 
-            .features
-            {
+            .features {
                 display: flex;
                 flex-direction: column;
                 gap: 0.3rem;
-                p 
-                {
+
+                p {
                     font-size: 0.8rem;
                 }
             }
-            .btn 
-            {
+
+            .btn {
                 background: blueviolet;
                 padding: 0.6rem;
                 border-radius: 2rem;

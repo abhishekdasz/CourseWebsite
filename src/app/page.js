@@ -3,7 +3,8 @@ import "./global.scss";
 import { constants } from "./constants";
 
 const Page = () => {
-  const { course } = constants;
+  const { course } = constants || {};
+  const {  } = constants;
   return (
     <div>
       <div className="hero-sec">
@@ -28,6 +29,7 @@ const Page = () => {
               </div>
             </div>
 
+            {/* aboutCourse */}
             <div className="aboutCourse">
               <h2> About the course </h2>
               <p>
@@ -52,11 +54,27 @@ const Page = () => {
               </p>
             </div>
 
+
+            {/* course expectations */}
             <div className="course-expectations">
               <h2> What to expect from the course </h2>
               <ul className="expectations">
-                {course.what_to_expect.map((item, index) => (
-                  <li key={index}>{item}</li>
+                {course.what_to_expect.list_items.map((item, index) => (
+                  <p key={index}> ✓ {item} </p>
+                ))}
+              </ul>
+            </div>
+
+
+            {/* key topics covered */}
+            <div className="key-topics">
+              <h2> Key Topics Covered </h2>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit similique illo aperiam commodi, aliquam tenetur totam neque non beatae ipsam? Repellendus voluptatibus consequuntur quibusdam voluptatum distinctio alias officiis rem consequatur? </p>
+              <ul className="topics">
+                {course.key_topics.heading.map((heading, index) => (
+                <div key={index}>
+                  <p> <b> ✓ {heading} </b> {course.key_topics.details[index]} </p>
+                </div>
                 ))}
               </ul>
             </div>

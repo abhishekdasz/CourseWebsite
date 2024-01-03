@@ -8,25 +8,51 @@ export const constants = {
       instagram: true,
     },
   },
-  course: {
+  course: 
+  {
     title: "Learn key life lessons from the Gita: Mind control and conflict resolution",
-    fee: {
+    fee: 
+    {
       amount: 5000,
       currency: "INR",
     },
-    inclusions: {
+    inclusions: 
+    {
       on_demand_videos: 2,
       live_qa_sessions: true,
       whatsapp_community: true,
     },
-    about: {
+    about: 
+    {
       html_content: "<p>Lorem ipsum text about managing relationships, communication, time management, and forgiveness.</p>",
     },
-    what_to_expect: {
-      html_content: "<ul><li>Learn to manage your relationships</li><li>Better communication</li><li>Time management</li><li>Forgiveness</li></ul>",
+    what_to_expect: 
+    {
+      list_items: 
+      [
+        "Learn to manage your relationships",
+        "Better communication",
+        "Time management",
+        "Forgiveness",
+      ],
     },
-    key_topics: {
-      html_content: "<ol><li>10 written and audio sessions guiding you in decoding the language of numbers so that you can easily receive their insights and messages.</li><li>Intuitive exercises and homework walk you through the energies and values of numbers and number sequences so you can become your own authority.</li><li>Handy reference to numerical meanings, so you can uncover your soul's gifts, challenges, lessons, and purpose – and receive spiritual guidance along your path.</li><li>Expert techniques for manifestation offer simple ways to use numbers to co-create with the universe.</li></ol>",
+    key_topics: 
+    {
+      heading:
+      [
+        "10 written and audio sessions",
+        "Intuitive exercises and homework",
+        "A Handy reference",
+        "Expert techniques"
+      ],
+      details:
+      [
+        "guiding you in decoding the language of numbers so that you can easily receive their insights and messages.",
+        " walk you through the energies and values of numbers and number sequences so you can become your own authority.",
+        "to numerical meanings, so you can uncover your soul's gifts, challenges, lessons, and purpose – and receive spiritual guidance along your path.",
+        "for manifestation offer simple ways to use numbers to co-create with the universe."
+      ],
+      html_content: "<ol><li></li><li></li><li></li></ol>",
     },
   },
   about_instructor: {
